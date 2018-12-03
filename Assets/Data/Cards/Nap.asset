@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4695bb24b8d2b949ae8b3f2db9ca27c, type: 3}
+  m_Name: Nap
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 13859da7130a19a448c6e593d5015c4f, type: 3}
+  description: Napped
+  stats:
+  - type: 0
+    value: 1
+  - type: 1
+    value: 1
+  - type: 2
+    value: -2
+  parents:
+  - {fileID: 11400000, guid: 16dbadafd4964114db13a2527d104c31, type: 2}
+  - {fileID: 11400000, guid: 0f3ee7100b65f5448a69102e50160275, type: 2}
+  - {fileID: 11400000, guid: 08fc5d6498d1a7148b0ca1ee4a2b2ce8, type: 2}
